@@ -1,5 +1,5 @@
 
-# Progetto Programmazione e laboratorio A.A. 2022/2023
+# Progetto Parsing
 
 Lo scopo del progetto è scrivere un parser (tramite grammatiche context-free) di file in formato json. Il contenuto del file deve essere salvato in un container C++ che permetta l’accesso (tramite iteratori e overloading di operatori) del contenuto letto dal file json.
 
