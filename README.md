@@ -10,19 +10,6 @@ Si vuole scrivere un parser per una variante _semplificata_ di json – un forma
 
 Un file json contiene dati in una struttura ad albero (ricorsiva), simile al formato XML. A differenza di XML, il formato json ammette sia **liste** di valori che **dizionari** (definiti nel dettaglio qui sotto). Globalmente, un file json è una lista, un dizionario, un numero (double), un booleano, una stringa, oppure null.
 
-
-## Esempi e dataset su cui testare il parser
-
-Potete usare il seguente database di file json per testare il vostro codice: 
-
-<https://github.com/jdorfman/awesome-json-datasets>.
-
-Può tornarvi utile visualizzare un file json in formato ad albero. Per questo, potete usare uno dei tanti visualizzatori json online, ad esempio il seguente:
-
-<https://jsonviewer.stack.hu/>.
-
-**Nota.** Il visualizzatore sopra racchiude le stringhe tra doppi apici. Il vostro parser invece non deve estrarre i doppi apici che racchiudono le stringhe (vedi esempi sopra). 
-
   
 
 ### 2. Obiettivo finale ed esempi di come verrà testato il codice
